@@ -1,5 +1,5 @@
 # TODO
-Just To lear How to get elements from HTML :)
+Just To learn How to get elements from HTML :)
 
 
 
