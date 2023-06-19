@@ -10,9 +10,13 @@
 
 <body>
     <p>TODO List</p>
-    <input type="text" class="ts-name-input" placeholder="ToDo Title...">
-    <button class="submit-button" onclick="addTodo()">Add</button>
+    <div class="input-section">
+        <input type="text" class="js-title-input" placeholder="ToDo Title...">
+        <input type="datetime-local" class="js-dueDate-input">
+        <button class="submit-button" onclick="addTodo()">Add</button>
+    </div>
 
+    <div class="js-todo-list todo-grid"></div>
 
     <script src="scripts/todo.js"></script>
 </body>
