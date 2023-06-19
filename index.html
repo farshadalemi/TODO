@@ -9,14 +9,24 @@
 </head>
 
 <body>
-    <p>TODO List</p>
-    <div class="input-section">
-        <input type="text" class="js-title-input" placeholder="ToDo Title...">
-        <input type="datetime-local" class="js-dueDate-input">
-        <button class="submit-button" onclick="addTodo()">Add</button>
-    </div>
+    <p class="page-title">TODO</p>
+    <section class="page-information">
+    <p><select name="choice" id="1" class="list-title">
+            <option value="Daily Tasks" selected>Daily Tasks</option>
+            <option value="Weeky Tasks">Weeky Tasks</option>
+            <option value="Monthly Tsks">Monthly Tasks</option>
+        </select></p>
+    </section>
 
-    <div class="js-todo-list todo-grid"></div>
+    <section class="first-todo-list">
+        <div class="input-section">
+            <input type="text" class="js-title-input" placeholder="ToDo Title...">
+            <input type="datetime-local" class="js-dueDate-input">
+            <button class="submit-button" onclick="addTodo()">Add</button>
+        </div>
+
+        <div class="js-todo-list todo-grid"></div>
+    </section>
 
     <script src="scripts/todo.js"></script>
 </body>

@@ -3,16 +3,58 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.page-title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-information {
+  margin: 0 auto;
+  text-align: center;
+}
+.list-title {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  font-size: 15px;
+  width: 500px;
+  color: rgb(130, 0, 0);
+  background-color: green;
+  padding: 15px;
+}
+.first-todo-list,
+.input-section {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.page-title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.table-list-title {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 6px;
+  border-radius: 10px;
+}
+
 .todo-grid,
 .input-section {
   display: grid;
   grid-template-columns: 200px 150px 100px;
   column-gap: 10px;
   row-gap: 10px;
+  align-items: center;
 }
 
 .input-section {
   margin-bottom: 30px;
+  align-items: stretch;
 }
 
 .js-title-input,
@@ -30,13 +72,13 @@ body {
   border-radius: 12px;
   cursor: pointer;
 }
-
 .submit-button:hover {
   outline-color: transparent;
   outline-style: solid;
   box-shadow: 0 0 0 2px #30c477;
   transition: 0.7s;
 }
+
 .done-button {
   background-color: rgb(13, 90, 207);
   color: black;
@@ -45,7 +87,6 @@ body {
   border-radius: 12px;
   cursor: pointer;
 }
-
 .done-button:hover {
   outline-color: transparent;
   outline-style: solid;
